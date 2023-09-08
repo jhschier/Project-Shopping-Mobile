@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Oswald&family=Phudu:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Oswald', sans-serif;
+    color: #5D5D7D;
+
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%; 
+    margin: 382px 0 0 136px;
+
+}
+
+.container-right {
+    display: inline-block;
+    background: rgba(93,93,125,0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+
+}
+
+img {
+    position: relative;
+    top: 250px;
+    right: 134px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    width: 368px;
+    height: 144px;
+
+}
+
+p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px; 
+    width: 690px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    filter: drop-shadow(0px 10px 24px rgba(148, 153, 234, 0.10));
+    background-color: #9499EA;
+    border: none;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFFF;
+    cursor: pointer;
+}
+
+button:hover {
+
+    opacity: 0.9;
+
+}
+
+button:active {
+
+    opacity: .4
+}
+
+
+header {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 24px 0px 0 115px;
+
+}
+
+a {
+    margin-right: 41px;
+    cursor: pointer;
+
+}
+
+a:hover {
+    opacity: .8;
+
+}
+
+a:active {
+    opacity: .6;
+}
+
+a:nth-last-child(3) {
+
+    opacity: .3;
+}
+
+
+@media screen and (max-width: 1340px) {
+    .container-left {
+       
+        height: 50%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+                
+    }
+    
+    .container-right {
+
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+    }
+
+    img {
+
+        position: static;
+        max-width: 90%;
+        padding: 5%;
+    }
+    
+    header {
+        display: none;
+    }
+
+    h1 {
+        width: auto;
+        margin: 60px 50px -70px 50px; 
+        text-align: center;
+        font-size: 36px;
+        line-height: 52px; 
+                 
+
+    }
+
+    p {
+        width: auto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 15px 40px;
+        text-align: center;
+
+    }
+
+    button {
+
+        margin: 0 auto;
+        display: block;
+
+    }
+
+    @media screen and (max-width: 430px) {
+
+           
+
+            .container-left {
+                height: 70%;
+            }
+
+            p {
+                margin-top: 50px;
+
+            }
+
+    }
+
+
+
+}
