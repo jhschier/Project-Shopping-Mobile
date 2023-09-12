@@ -15,7 +15,7 @@
 - <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" alt="css-icon">
 
 ## Preview and Link
-<img src="./img/easyshopping-computer.jpg" alt="computer-mocap">
+
 <img src="./img/easyshopping-smartphone1.jpg" alt="smartphone-mocap1">
 <img src="./img/easyshopping-smartphone2.jpg" alt="smartphone-mocap2">
 
