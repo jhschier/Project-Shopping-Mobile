@@ -1,6 +1,6 @@
 <h1>Project Easyshopping</h1>
 
-"EasyShopping" is a dynamic HTML and CSS project that offers a mobile shopping experience. It shares core elements with "We Care," including responsive design, functional links, buttons, and expertly formatted text. However, it goes a step further by incorporating distinct backgrounds and seamlessly adapting to various screen resolutions.
+"EasyShopping" is a dynamic HTML and CSS project that offers a mobile shopping experience. It shares core elements with "We Care," including responsive design, functional links, buttons, and expertly formatted text. However, it goes a step further by incorporating seamlessly adaptation to various screen resolutions.
 
 ## Features
 
